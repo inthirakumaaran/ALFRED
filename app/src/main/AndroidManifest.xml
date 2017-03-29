@@ -17,7 +17,11 @@
             </intent-filter>
         </activity>
         <activity android:name=".welcome" />
-        <activity android:name=".Register"></activity>
+        <activity android:name=".logIn.Register" />
+        <activity android:name=".Frontends.actvityfront" />
+        <activity android:name=".activityshow" />
+        <activity android:name=".ProgressController" />
+        <activity android:name=".Frontends.Settingfront"></activity>
     </application>
 
 </manifest>

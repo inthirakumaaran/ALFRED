@@ -7,6 +7,27 @@ import java.util.List;
  */
 
 abstract class Category {
-    String name;
-    List<activity> activityList;
+    private String name;
+    private List<activity> activityList;
+
+    public Category(String name) {
+        this.name = name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public List<activity> getActivityList() {
+        return activityList;
+    }
+
+    public void setActivityList(List<activity> activityList) {
+        this.activityList = activityList;
+    }
+
+    public String getName() {
+
+        return name;
+    }
 }

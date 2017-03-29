@@ -5,5 +5,7 @@ package com.example.asus_pc.alfred10;
  */
 
 public class Health_social extends Category {
-
+    public Health_social(String name) {
+        super(name);
+    }
 }

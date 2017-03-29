@@ -1,7 +1,6 @@
 package com.example.asus_pc.alfred10;
 
 import android.content.Intent;
-import android.support.annotation.IdRes;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -10,14 +9,17 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import butterknife.OnClick;
+import com.example.asus_pc.alfred10.dataBase.UserDB;
+import com.example.asus_pc.alfred10.logIn.Register;
+import com.example.asus_pc.alfred10.logIn.session;
 
 public class MasterController extends AppCompatActivity {
     private Button login;
     private EditText name,password;
-    private DBcontroller Dbh;
+    private UserDB Dbh;
     private session s;
     private TextView signup;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,7 +31,7 @@ public class MasterController extends AppCompatActivity {
         login =(Button)findViewById(R.id.llogin);
         name=(EditText)findViewById(R.id.lname);
         password=(EditText)findViewById(R.id.lpass);
-        Dbh = new DBcontroller(this);
+        Dbh = new UserDB(this);
         s =new session(this);
 
         if (s.loggedIn()){

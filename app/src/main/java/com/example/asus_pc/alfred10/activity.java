@@ -5,17 +5,21 @@ package com.example.asus_pc.alfred10;
  */
 
 public class activity {
-    String Name;
-    Category category;
-    double allocated_time;
-    double allocated_value;
-    String perbasis;
-    int priority;
+    private String Name;
+    private Category category;
+    private double allocated_time;
+    private double allocated_value;
+    private String perbasis;
+    private int priority;
 
-    public activity(String name, Category category, String perbasis, int priority) {
+    public double getAllocated_value() {
+        return allocated_value;
+    }
+
+    public activity(String name, Category category, String perbasis, int priority, Double allocated_value) {
         Name = name;
         this.category = category;
-//        this.allocated_value = allocated_value;
+        this.allocated_value = allocated_value;
         this.perbasis = perbasis;
         this.priority = priority;
     }

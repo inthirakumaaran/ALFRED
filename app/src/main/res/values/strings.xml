@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Alfred1.0</string>
+    <string-array name="category">
+        <item>HEALTH</item>
+        <item>SOCIAL</item>
+        <item>ACADEMIC</item>
+        <item>NON-ACADEMIC</item>
+        <item>EXPENSE</item>
+    </string-array>
 </resources>
