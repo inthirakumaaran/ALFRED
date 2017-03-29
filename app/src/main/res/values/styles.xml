@@ -1,11 +1,35 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
+     <!--login design-->
+    <style name="ed_back">
+        <item name="android:background">@drawable/edtextback</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:ems">10</item>
+        <item name="android:layout_margin">5dp</item>
+    </style>
+
+    <style name="buttonback">
+        <item name="android:background">@drawable/butback</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_margin">5dp</item>
+    </style>
+
+    <style name="textback">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@color/texcol</item>
+        <item name="android:textAlignment">center</item>
+
+    </style>
+    <!--login design finish-->
 
 </resources>

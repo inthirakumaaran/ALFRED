@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimary">#444153</color>
+    <color name="colorPrimaryDark">#353e4f</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="texcol">#6F7A8B</color>
+    <color name="alfred_background">#444153</color>
+    <color name="alfred_background_dark">#383547</color>
+    <color name="selected_item_color">#30d1d5</color>
 </resources>
